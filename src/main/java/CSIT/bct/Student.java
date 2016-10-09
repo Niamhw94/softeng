@@ -65,7 +65,9 @@ public class Student {
     	  return username;
       }
       
-     
+     public String toString() {
+    	 return ""+id;
+     }
 }
 
 

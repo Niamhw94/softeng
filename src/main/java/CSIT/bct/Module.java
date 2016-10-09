@@ -41,4 +41,8 @@ public class Module {
 	return SList;
 	
     }
+	
+	public String toString() {
+		return ModuleName;
+	}
 }
