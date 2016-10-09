@@ -10,12 +10,12 @@ public class Module {
 	private int ID;
 	private ArrayList<Student> SList;
 	
-	public Module (String mName, int id)
+	public Module (String mName, int id, ArrayList<Student> Slist)
 	{
 	
 	ModuleName = mName;
 	ID=id;
-	
+	SList = Slist;
 	}
 		
 	
