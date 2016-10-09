@@ -44,6 +44,14 @@ public class Course {
 	{
 		return MList;
 	}
+	
+	public String toString() {
+		String s1 = getCourseName() + " cointains modules " + getModuleList() + ".";
+		for (Module module: getModuleList()) {
+			s1 += " Module " + module.getModule() + " contains students " + module.StudentList() + ".";
+		}
+		return s1;
+	}
 
 }
 

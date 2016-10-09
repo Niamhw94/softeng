@@ -12,6 +12,7 @@ public class StudentTest extends TestCase {
 	   protected void setUp(){
 	     
 		   students = new Student ( 13492098, "Niamh", "Walsh", "11-01-94", 22 );
+		   
 	   }
 
 	   // test method to add two values
